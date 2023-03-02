@@ -37,11 +37,4 @@ jobs:
         run: |
           ls -ltr
           
-      - name: Upload Scan Results to SSC
-        uses: fortify-on-demand/fortify-github-actions/upload-fpr@v1
-        with:
-          application-name: myproject
-          source-filename: myproject.fpr
-          ssc-url: <your-ssc-url>
-          ssc-username: <your-ssc-username>
-          ssc-password: ${{ secrets.SSC_PASSWORD }} # You should add your SSC password as a secret in your repository settings
+      
