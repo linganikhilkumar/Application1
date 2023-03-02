@@ -1,4 +1,4 @@
-name: Fortify SCA Scan
+name: Fortify SCA Scan New
 
 on:
   push:
